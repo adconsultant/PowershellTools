@@ -18,8 +18,8 @@
 
 ------------------------------------------------------------------------ #>
 
-$DNSServer = "smtladc02.int.garda.com"
-$ZoneToCheck = "int.garda.com"
+$DNSServer = "server123.domain.xyz"
+$ZoneToCheck = "abc.com"
 $OutputFile = "$PSScriptRoot\Check-Missing-Reverse-Zones.txt"
 
 $dnsEntries = @()
